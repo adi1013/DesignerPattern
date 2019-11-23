@@ -1,0 +1,5 @@
+<config>
+    <!--<class-name>com.adi.abstract_factory.MideaFactory</class-name>-->
+    <!--<class-name>com.adi.abstract_factory.GereeFactory</class-name>-->
+    <class-name>com.adi.abstract_factory.SongXiaFactory</class-name>
+</config>

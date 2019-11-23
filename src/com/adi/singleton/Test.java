@@ -1,4 +1,4 @@
-package com.adi.Singleton;
+package com.adi.singleton;
 
 public class Test {
 
