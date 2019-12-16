@@ -1,6 +1,5 @@
 package com.adi.proxy_pattern.dynanic_proxy_by_jdk;
 
-import java.lang.reflect.Proxy;
 
 public class Test {
 
@@ -8,6 +7,5 @@ public class Test {
         JDKDynamicServiceProxy jdkDynamicServiceProxy = new JDKDynamicServiceProxy(new RealDynamicService());
         DynamicService proxy = jdkDynamicServiceProxy.getProxy();
         proxy.doSomething();
-
     }
 }
