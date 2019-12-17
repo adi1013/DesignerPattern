@@ -5,4 +5,10 @@ public class RealDynamicService implements DynamicService {
     public void doSomething() {
         System.out.println("jdk dynamic proxy");
     }
+
+    @Override
+    public String toString() {
+        System.out.println("toString");
+        return null;
+    }
 }

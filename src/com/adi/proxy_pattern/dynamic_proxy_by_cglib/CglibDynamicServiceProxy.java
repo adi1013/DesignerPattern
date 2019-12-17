@@ -19,7 +19,8 @@ public class CglibDynamicServiceProxy implements MethodInterceptor {
      */
     @Override
     public Object intercept(Object o, Method method,
-                            Object[] objects, MethodProxy methodProxy) throws Throwable {
+                            Object[] objects, MethodProxy methodProxy)
+                            throws Throwable {
         System.out.println("----pre invoke----");
         Object object = methodProxy.invokeSuper(o, objects);
         System.out.println("----post invoke----");

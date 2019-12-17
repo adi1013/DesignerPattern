@@ -4,6 +4,9 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
+/**
+ * 设置sun.misc.ProxyGenerator.saveGeneratedFiles=true获取中间代理类
+ */
 public class JDKDynamicServiceProxy implements InvocationHandler {
 
     private Object target;
